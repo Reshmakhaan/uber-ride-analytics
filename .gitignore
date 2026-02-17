@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.joblib
+!backend/models/best_model.joblib
+!backend/models/metrics_summary.joblib
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (Optional: keep if you want models to retrain on Render, but they are large)
+# data/*.csv
+
+# Environment
+.env
+.env.production
